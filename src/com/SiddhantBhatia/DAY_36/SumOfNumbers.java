@@ -1,4 +1,5 @@
 package com.SiddhantBhatia.DAY_36;
+
 import java.util.Scanner;
 public class SumOfNumbers {
     public static void main(String[] args) {
