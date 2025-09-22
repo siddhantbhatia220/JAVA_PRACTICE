@@ -12,7 +12,7 @@ public class Linear_Search {
             arr[i] = sc.nextInt();
         }
         int target =  sc.nextInt();
-        for (int i = 0; i<num;i++)
+        for (int i = 0; i<num ; i++)
         {
             if (arr[i] ==target)
             {
