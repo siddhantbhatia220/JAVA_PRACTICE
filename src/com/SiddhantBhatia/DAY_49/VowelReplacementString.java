@@ -18,9 +18,12 @@ package com.SiddhantBhatia.DAY_49;
 //}
 
 
+import java.util.Scanner;
+
 public class VowelReplacementString {
     public static void main(String[] args) {
-        String str = new String("Daksh");
+        Scanner sc=new Scanner(System.in);
+        String str = sc.nextLine();
         String result = "";
         for(int i=0;i<str.length();i++){
             char ch = str.charAt(i);

@@ -5,20 +5,27 @@ import java.util.Scanner;
 public class Linear_Search {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int [] arr = new int[num];
-        for (int i = 0; i<num;i++)
-        {
-            arr[i] = sc.nextInt();
-        }
-        int target =  sc.nextInt();
-        for (int i = 0; i<num ; i++)
-        {
-            if (arr[i] ==target)
-            {
-                System.out.println("Found at index " + i);
+//        int num = sc.nextInt();
+//        int [] arr = new int[num];
+//        for (int i = 0; i<num;i++)
+//        {
+//            arr[i] = sc.nextInt();
+//        }
+//        int target =  sc.nextInt();
+//        for (int i = 0; i<num ; i++)
+//        {
+//            if (arr[i] ==target)
+//            {
+//                System.out.println("Found at index " + i);
+//            }
+        String word=sc.nextLine();
+        int len=word.length();
+        for(int i=len;i>0;i--){
+            for(int j=0;j<i;j++){
+                char ch=word.charAt(j);
+                System.out.print(ch);
             }
-
+         System.out.println();
         }
     }
 }
